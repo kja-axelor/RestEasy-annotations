@@ -1,0 +1,25 @@
+plugins
+{
+id 'application'
+id 'java'
+id 'eclipse'
+id 'war'
+}
+
+repositories {
+mavenCentral()
+}
+
+dependencies {
+
+implementation 'com.google.inject:guice:4.2.0'
+
+implementation group: 'org.jboss.resteasy', name: 'resteasy-jaxrs', version: '3.6.0.Final'
+implementation group: 'org.jboss.resteasy', name: 'resteasy-guice', version: '3.6.0.Final'
+
+//implementation group: 'com.google.inject.extensions', name: 'guice-persist', version: '4.2.0'
+implementation group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.1'
+
+//testImplementation group: 'junit', name: 'junit', version: '4.11'
+}
+mainClassName='Library'
