@@ -20,6 +20,5 @@ implementation group: 'org.jboss.resteasy', name: 'resteasy-guice', version: '3.
 //implementation group: 'com.google.inject.extensions', name: 'guice-persist', version: '4.2.0'
 implementation group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.1'
 
-//testImplementation group: 'junit', name: 'junit', version: '4.11'
 }
 mainClassName='Library'
